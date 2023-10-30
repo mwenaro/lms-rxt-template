@@ -6,6 +6,7 @@ import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
 import Progress from "../component/sidebar/progress";
 import Rating from "../component/sidebar/rating";
+import HeaderTwo from "../component/layout/header-2";
 
 const name = "Emilee Logan";
 const degi = "Master of Education Degree";
@@ -30,7 +31,7 @@ const memInfoLisst = [
     },
     {
         leftText: 'website',
-        rightText: 'www.adminedukon.com',
+        rightText: 'www.adminmds-lms-rxt.com',
     },
 ]
 
@@ -107,7 +108,7 @@ const awardList = [
 const TeamSingle = () => {
     return (
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Sir Emilee Logan'} curPage={'Emilee Logan'} />
             <section className="instructor-single-section padding-tb section-bg">
                 <div className="container">

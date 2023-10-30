@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import Footer from "../component/layout/footer";
-import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
 import Archive from "../component/sidebar/archive";
 import Author from "../component/sidebar/author";
@@ -11,6 +10,7 @@ import PostCategory from "../component/sidebar/post-category";
 import Respond from "../component/sidebar/respond";
 import Search from "../component/sidebar/search";
 import Tags from "../component/sidebar/tags";
+import HeaderTwo from "../component/layout/header-2";
 
 
 const socialList = [
@@ -47,7 +47,7 @@ const socialList = [
 const BlogSingle = () => {
     return (
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Interactively Morph High Standards Anding'} curPage={'Blog Detais'} />
             <div className="blog-section blog-single padding-tb section-bg">
                 <div className="container">

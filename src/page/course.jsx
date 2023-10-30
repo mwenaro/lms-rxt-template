@@ -1,16 +1,63 @@
-import { Component, Fragment } from "react";
+import {  Fragment } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../component/layout/footer";
-import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
 import GroupSelect from "../component/sidebar/group-select";
 import Pagination from "../component/sidebar/pagination";
 import Rating from "../component/sidebar/rating";
 import SkillSelect from "../component/sidebar/skill-select";
+import HeaderTwo from "../component/layout/header-2";
+import { courseList } from "../constants";
 
-
-
+/*
 const courseList = [
+    {
+        imgUrl: 'assets/images/course/01.jpg',
+        imgAlt: 'course rajibraj91 rajibraj',
+        price: '$30',
+        cate: 'Certified Monitoring and Evaluation Professional',
+        reviewCount: '03 reviews',
+        title: 'Certified Monitoring and Evaluation Professional',
+        totalLeson: '18x Lesson',
+        schdule: 'Online Class',
+        authorImgUrl: 'assets/images/course/author/01.jpg',
+        authorImgAlt: 'course author rajibraj91 rajibraj',
+        authorName: 'William Smith',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/course/02.jpg',
+        imgAlt: 'course rajibraj91 rajibraj',
+        price: '$30',
+        cate: 'Certified Project Management Professional',
+        reviewCount: '03 reviews',
+        title: 'Certified Project Management Professional',
+        totalLeson: '18x Lesson',
+        schdule: 'Online Class',
+        authorImgUrl: 'assets/images/course/author/02.jpg',
+        authorImgAlt: 'course author rajibraj91 rajibraj',
+        authorName: 'Lora Smith',
+        btnText: 'Read More',
+    },
+    {
+        imgUrl: 'assets/images/course/03.jpg',
+        imgAlt: 'course rajibraj91 rajibraj',
+        price: '$30',
+        cate: 'Certified Resource Mobilization Professional',
+        reviewCount: '03 reviews',
+        title: 'Certified Resource Mobilization Professional',
+        totalLeson: '18x Lesson',
+        schdule: 'Online Class',
+        authorImgUrl: 'assets/images/course/author/03.jpg',
+        authorImgAlt: 'course author rajibraj91 rajibraj',
+        authorName: 'Robot Smith',
+        btnText: 'Read More',
+    },
+    // Include additional courses as needed
+];
+*/
+/*
+const courseList2 = [
     {
         imgUrl: 'assets/images/course/01.jpg',
         imgAlt: 'course rajibraj91 rajibraj',
@@ -96,12 +143,12 @@ const courseList = [
         btnText: 'Read More',
     },
 ]
-
+*/
 
 const CoursePage = () => {
     return (
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Archives: Courses'} curPage={'Course Page'} />
             <GroupSelect />
             <div className="course-section padding-tb section-bg">

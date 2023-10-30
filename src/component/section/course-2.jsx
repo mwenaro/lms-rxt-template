@@ -1,13 +1,14 @@
 
 import { Link } from "react-router-dom";
 import Rating from "../sidebar/rating";
+import { courseList } from "../../constants";
 
 
 const subTitle = "Featured Courses";
 const title = "Pick A Course To Get Started";
 
 
-
+/*
 const courseList = [
     {
         imgUrl: 'assets/images/course/07.jpg',
@@ -94,7 +95,7 @@ const courseList = [
         btnText: 'Read More',
     },
 ]
-
+*/
 
 const CourseTwo = () => {
     return (

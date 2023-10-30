@@ -1,8 +1,8 @@
 import { Component, Fragment } from "react";
 import Footer from "../component/layout/footer";
-import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
 import GoogleMap from "../component/sidebar/googlemap";
+import HeaderTwo from "../component/layout/header-2";
 
 
 const subTitle = "Get in touch with us";
@@ -17,25 +17,25 @@ const contactList = [
         imgUrl: 'assets/images/icon/01.png',
         imgAlt: 'contact icon',
         title: 'Office Address',
-        desc: '1201 park street, Fifth Avenue',
+        desc: 'Hatheru Court, Lavington, Nairobi',
     },
     {
         imgUrl: 'assets/images/icon/02.png',
         imgAlt: 'contact icon',
         title: 'Phone number',
-        desc: '+22698 745 632,02 982 745',
+        desc: '+254 727 416 606',
     },
     {
         imgUrl: 'assets/images/icon/03.png',
         imgAlt: 'contact icon',
         title: 'Send email',
-        desc: 'adminedukon@gmil.com',
+        desc: 'talentflowinstitute@gmail.com',
     },
     {
         imgUrl: 'assets/images/icon/04.png',
         imgAlt: 'contact icon',
         title: 'Our website',
-        desc: 'www.edukon.com',
+        desc: 'www.talentflowinstitute.com',
     },
 ]
 
@@ -43,7 +43,7 @@ const contactList = [
 const ContactPage = () => {
     return ( 
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Get In Touch With Us'} curPage={'Contact Us'} />
             <div className="map-address-section padding-tb section-bg">
                 <div className="container">

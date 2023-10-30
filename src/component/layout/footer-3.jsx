@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 
-const title = "About Edukon";
+const title = "About mds-lms-rxt";
 const desc = "Eduaid theme number one world class university in the world There are student are studing always in this university for all time.";
 const courseTitle = "Courses";
 const quickTitle = "Quick Links";
@@ -18,7 +18,7 @@ const addressList = [
     },
     {
         iconName: 'icofont-envelope',
-        text: 'info@Edukon.com',
+        text: 'info@mds-lms-rxt.com',
     },
 ]
 
@@ -111,11 +111,11 @@ const quickList = [
 const tweetList = [
     {
         iconName: 'icofont-twitter',
-        desc: <p>Aminur islam <a href="#">@CodexCoder Edukon #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
+        desc: <p>Aminur islam <a href="#">@CodexCoder mds-lms-rxt #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
     {
         iconName: 'icofont-twitter',
-        desc: <p>Somrat islam <a href="#">@CodexCoder Edukon #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
+        desc: <p>Somrat islam <a href="#">@CodexCoder mds-lms-rxt #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
 ]
 
@@ -234,7 +234,7 @@ const FooterThree = () => {
             <div className="footer-bottom">
                 <div className="container">
                     <div className="section-wrapper">
-                        <p>&copy; 2022 <Link to="/">Edukon</Link> Designed by <a href="https://themeforest.net/user/CodexCoder" target="_blank">CodexCoder</a> </p>
+                        <p>&copy; {new Date().getFullYear()}<Link to="/">Talentflow Institute</Link> </p>
                         <div className="footer-bottom-list">
                             {footerbottomList.map((val, i) => (
                                 <a href={val.link} key={i}>{val.text}</a>

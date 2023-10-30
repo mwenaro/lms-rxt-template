@@ -8,15 +8,15 @@ const desc = "Free online courses from the world’s Leading experts. join 18+ m
 
 const catagoryList = [
     {
-        name: 'Figma',
+        name: 'Management',
         link: '#',
     },
     {
-        name: 'Adobe XD',
+        name: 'Resource Mobilization',
         link: '#',
     },
     {
-        name: 'illustration',
+        name: 'Monitoring and Evaluation',
         link: '#',
     },
     {
