@@ -17,25 +17,25 @@ const contactList = [
         imgUrl: 'assets/images/icon/01.png',
         imgAlt: 'contact icon',
         title: 'Office Address',
-        desc: '1201 park street, Fifth Avenue',
+        desc: 'Hatheru Court, Lavington, Nairobi',
     },
     {
         imgUrl: 'assets/images/icon/02.png',
         imgAlt: 'contact icon',
         title: 'Phone number',
-        desc: '+22698 745 632,02 982 745',
+        desc: '+254 727 416 606',
     },
     {
         imgUrl: 'assets/images/icon/03.png',
         imgAlt: 'contact icon',
         title: 'Send email',
-        desc: 'adminmds-lms-rxt@gmil.com',
+        desc: 'talentflowinstitute@gmail.com',
     },
     {
         imgUrl: 'assets/images/icon/04.png',
         imgAlt: 'contact icon',
         title: 'Our website',
-        desc: 'www.mds-lms-rxt.com',
+        desc: 'www.talentflowinstitute.com',
     },
 ]
 
