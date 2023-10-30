@@ -4,6 +4,7 @@ import Footer from "../component/layout/footer";
 import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
 import Pagination from "../component/sidebar/pagination";
+import HeaderTwo from "../component/layout/header-2";
 
 
 const blogList = [
@@ -176,7 +177,7 @@ const blogList = [
 const BlogPage = () => {
     return ( 
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Our Blog Posts'} curPage={'Blog'} />
             <div className="blog-section padding-tb section-bg">
                 <div className="container">

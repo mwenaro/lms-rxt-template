@@ -1,8 +1,8 @@
 import { Component, Fragment } from "react";
 import Footer from "../component/layout/footer";
-import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
 import GoogleMap from "../component/sidebar/googlemap";
+import HeaderTwo from "../component/layout/header-2";
 
 
 const subTitle = "Get in touch with us";
@@ -29,13 +29,13 @@ const contactList = [
         imgUrl: 'assets/images/icon/03.png',
         imgAlt: 'contact icon',
         title: 'Send email',
-        desc: 'adminedukon@gmil.com',
+        desc: 'adminmds-lms-rxt@gmil.com',
     },
     {
         imgUrl: 'assets/images/icon/04.png',
         imgAlt: 'contact icon',
         title: 'Our website',
-        desc: 'www.edukon.com',
+        desc: 'www.mds-lms-rxt.com',
     },
 ]
 
@@ -43,7 +43,7 @@ const contactList = [
 const ContactPage = () => {
     return ( 
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Get In Touch With Us'} curPage={'Contact Us'} />
             <div className="map-address-section padding-tb section-bg">
                 <div className="container">

@@ -2,7 +2,7 @@
 import CountUp from 'react-countup';
 
 const subTitle = "START TO SUCCESS";
-const title = "Achieve Your Goals With Edukon";
+const title = "Achieve Your Goals With mds-lms-rxt";
 
 
 const achievementList = [
@@ -12,7 +12,7 @@ const achievementList = [
     },
     {
         count: '3084',
-        desc: 'Learners Enrolled in Edukon Courses',
+        desc: 'Learners Enrolled in mds-lms-rxt Courses',
     },
     {
         count: '330',

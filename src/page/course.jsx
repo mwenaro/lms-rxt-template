@@ -7,6 +7,7 @@ import GroupSelect from "../component/sidebar/group-select";
 import Pagination from "../component/sidebar/pagination";
 import Rating from "../component/sidebar/rating";
 import SkillSelect from "../component/sidebar/skill-select";
+import HeaderTwo from "../component/layout/header-2";
 
 
 
@@ -101,7 +102,7 @@ const courseList = [
 const CoursePage = () => {
     return (
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Archives: Courses'} curPage={'Course Page'} />
             <GroupSelect />
             <div className="course-section padding-tb section-bg">

@@ -11,23 +11,22 @@ import Instructor from "../component/section/instructor";
 import Skill from "../component/section/skill";
 import Student from "../component/section/student";
 
-
 const HomeTwo = () => {
-    return (
-        <Fragment>
-            <HeaderTwo />
-            <BannerTwo />
-            <AboutTwo />
-            <CourseTwo />
-            <CategoryTwo />
-            <Student />
-            <Instructor />
-            <Skill />
-            <AchievementTwo />
-            <Blog />
-            <Footer />
-        </Fragment>
-    );
-}
- 
+  return (
+    <Fragment>
+      <HeaderTwo />
+      <BannerTwo />
+      <AboutTwo />
+      <CourseTwo />
+      <CategoryTwo />
+      <Student />
+      <Instructor />
+      <Skill />
+      <AchievementTwo />
+      <Blog />
+      <Footer />
+    </Fragment>
+  );
+};
+
 export default HomeTwo;

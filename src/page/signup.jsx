@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Footer from "../component/layout/footer";
 import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
+import HeaderTwo from "../component/layout/header-2";
 
 
 
@@ -43,7 +44,7 @@ let socialList = [
 const SignupPage = () => {
     return (
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Register Now'} curPage={'Sign Up'} />
             <div className="login-section padding-tb section-bg">
                 <div className="container">
