@@ -7,7 +7,9 @@ import Pagination from "../component/sidebar/pagination";
 import Rating from "../component/sidebar/rating";
 import SkillSelect from "../component/sidebar/skill-select";
 import HeaderTwo from "../component/layout/header-2";
+import { courseList } from "../constants";
 
+/*
 const courseList = [
     {
         imgUrl: 'assets/images/course/01.jpg',
@@ -53,7 +55,7 @@ const courseList = [
     },
     // Include additional courses as needed
 ];
-
+*/
 /*
 const courseList2 = [
     {
