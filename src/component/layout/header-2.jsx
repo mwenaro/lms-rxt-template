@@ -48,7 +48,7 @@ const HeaderTwo = () => {
             <div className="menu">
               <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
                 <li className="">
-                  <NavLink to="/index-2"> Home</NavLink>
+                  <NavLink to="/"> Home</NavLink>
                 </li>
                 <li className="">
                   <NavLink to="/course">Course</NavLink>

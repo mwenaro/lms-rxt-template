@@ -42,7 +42,7 @@ function App() {
 			
 			<Routes>
 				{/* <Route path="/" element={<Home />} /> */}
-				<Route path="index-2" element={<HomeTwo />} />
+				<Route path="/" element={<HomeTwo />} />
 				{/* <Route path="index-3" element={<HomeThree />} />
 				<Route path="index-4" element={<HomeFour />} />
 				<Route path="index-5" element={<HomeFive />} />
