@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from 'react';
 
 import Footer from "../component/layout/footer";
-import Header from "../component/layout/header";
 import PageHeader from "../component/layout/pageheader";
+import HeaderTwo from '../component/layout/header-2';
 
 
 const socialList = [
@@ -39,7 +39,7 @@ const CourseView = () => {
 
     return (
         <Fragment>
-            <Header />
+            <HeaderTwo />
             <PageHeader title={'Themeforest Standard'} curPage={'Course View'} />
             <div className="course-view-section padding-tb section-bg">
                 <div className="container">
